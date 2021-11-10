@@ -24,6 +24,5 @@ for i in Tweets:
     elif rawScore > 0.025 and rawScore < 0.05:
         degree = "VERY PROFANE"
     else:
-        degree = "EXTREMELY PROFANE"
-        
+        degree = "EXTREMELY PROFANE"        
     print(i[0], "-" , degree, "(", rawScore, ")", "\n")
