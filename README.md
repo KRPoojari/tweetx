@@ -12,9 +12,16 @@ Higher degree of profanity indicates more profanity in the Tweet.
 Tweets are included in the `tweets.json` file. `racial.txt` consists of words that may indicate racial abuse/slurs. 
 These words when found in the Tweets indicate a High Degree of Profanity. 
 
+## Evaluation
+
+Tweets are scanned for words indicating racial slurs. The more number of words detected, the more would be the resulting Degree of Profanity.
+
+$$\[Degree \ of \ Profanity= \frac{Number \ of \ Profane \ Words \ (Racial \ Slurs)}{Total \ Number \ of \ Words \ in \ the \ Tweet}\] $$
+
 #### Dependencies
 
 Python3
+
 
 
 ## License
