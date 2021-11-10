@@ -16,7 +16,7 @@ These words when found in the Tweets indicate a High Degree of Profanity.
 
 Tweets are scanned for words indicating racial slurs. The more number of words detected, the more would be the resulting Degree of Profanity.
 
-$$\[Degree \ of \ Profanity= \frac{Number \ of \ Profane \ Words \ (Racial \ Slurs)}{Total \ Number \ of \ Words \ in \ the \ Tweet}\] $$
+$$\[Degree \ of \ Profanity= \frac{Number \ of \ Profane \ Words \ (Racial \ Slurs)}{Total \ Number \ of \ Words \ in \ the \ Tweet}\]$$
 
 #### Dependencies
 
