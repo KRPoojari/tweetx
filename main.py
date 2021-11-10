@@ -1,10 +1,8 @@
 import json
 
 #Reading Data
-with open("racial.txt", "r") as testWords: 
+with open("racial.txt", "r") as testWords, open("tweets.json", "r") as testTweets: 
     words = testWords.read().splitlines() 
-
-with open("tweets.json", "r") as testTweets:
     tweets = json.load(testTweets)
 
 Tweets = []
@@ -15,7 +13,8 @@ for j in tweets['sampleTweets']:
     Tweets.append([j, profaneWordCount])
 
 #Determining the Degree of Profanity of each tweet
-#Degree was determined on the basis of ratio of Profane Words to the Total Number of Words in the tweet.
+'''Degree was determined on the basis of ratio of Profane Words 
+to the Total Number of Words in the tweet.'''
 for i in Tweets:
     rawScore = (i[1]) / len(i[0])
     if rawScore == 0.0:
