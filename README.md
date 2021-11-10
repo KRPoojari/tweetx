@@ -3,8 +3,8 @@
 
 **tweetx** is a program to detect racial slurs in Twitter Tweets.
 
-Racial Abuse on Twitter is becoming quite a serious issue in recent times.
-tweetx aims to flag such tweets by stating a Degree of Profanity for each tweet.
+Racial Abuse on Twitter is becoming quite a serious issue in recent times.\
+tweetx aims to flag such tweets by stating a Degree of Profanity for each tweet.\
 Higher degree of profanity indicates extreme profanity in the Tweet.
 
 ## Uses
