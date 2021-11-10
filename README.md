@@ -16,7 +16,7 @@ These words when found in the Tweets indicate a High Degree of Profanity.
 
 Tweets are scanned for words indicating racial slurs. The more number of words detected, the more would be the resulting Degree of Profanity.
 
-![Degree of Profanity](https://latex.codecogs.com/svg.latex?%5Cbg_white%20Degree%20%5C%20of%20%5C%20Profanity%20%3D%20%5Cfrac%7BNumber%20%5C%20of%20%5C%20Profane%20%5C%20Words%5C%20%28Racial%20%5C%20Slurs%29%7D%7BTotal%20%5C%20Number%20%5C%20of%20%5C%20Words%20%5C%20in%20%5C%20the%20%5C%20Tweet%7D)
+![Degree of Profanity](https://latex.codecogs.com/png.latex?%5Cbg_white%20Degree%20%5C%20of%20%5C%20Profanity%20%3D%20%5Cfrac%7BNumber%20%5C%20of%20%5C%20Profane%20%5C%20Words%5C%20%28Racial%20%5C%20Slurs%29%7D%7BTotal%20%5C%20Number%20%5C%20of%20%5C%20Words%20%5C%20in%20%5C%20the%20%5C%20Tweet%7D)
 
 #### Dependencies
 
